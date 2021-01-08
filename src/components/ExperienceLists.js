@@ -36,7 +36,7 @@ const ExperienceLists = () => {
     return (
       <div className="container-sm mt-5">
         <div className="row d-flex flex-column justify-content-center align-items-center">
-          <h1>Experience</h1>
+          <h1 className="font-weight-bold mt-3">Experience</h1>
           <div
             style={{ width: "100px", height: "4px", backgroundColor: "green" }}
           ></div>

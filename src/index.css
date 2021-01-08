@@ -18,6 +18,12 @@ button {
   background-color: white;
   cursor: pointer;
 }
+.company {
+  background-color: rgba(128, 128, 128, 0.452);
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+}
 /* 
 .showMe {
   display: none;

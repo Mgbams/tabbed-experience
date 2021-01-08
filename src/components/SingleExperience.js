@@ -7,7 +7,9 @@ const SingleExperience = ({ company, id, order, title, dates, duties }) => {
   return (
     <div className="d-flex flex-column justify-content-start">
       <h2 className="job-title mb-2">{title ? title : ""}</h2>
-      <span className="text-uppercase my-2 font-weight-bold h6">{company}</span>
+      <span className="text-uppercase my-2 font-weight-bold h6 company">
+        {company}
+      </span>
       <br />
       <span className="text-capitalize my-2">{dates ? dates : ""}</span>
       <br />
